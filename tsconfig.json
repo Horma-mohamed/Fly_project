@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "removeComments": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "lib": ["es2019", "dom"],
+    "typeRoots" : ["node_modules/@types", "src/types"]
+  },
+  "exclude": ["node_modules"]
+}
